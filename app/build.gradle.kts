@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.deepakbarad.playintegrityapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.deepakbarad.playintegrityapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

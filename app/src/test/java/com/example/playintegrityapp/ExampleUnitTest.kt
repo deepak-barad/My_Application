@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.deepakbarad.playintegrityapp
 
 import org.junit.Test
 

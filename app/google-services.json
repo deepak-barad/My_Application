@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:652911097673:android:951b272e950241ed5b4c98",
+        "mobilesdk_app_id": "1:652911097673:android:083806a3ad41d0fa5b4c98",
         "android_client_info": {
-          "package_name": "com.example.myapplication"
+          "package_name": "com.deepakbarad.playintegrityapp"
         }
       },
       "oauth_client": [],

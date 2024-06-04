@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.deepakbarad.playintegrityapp
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
