@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
         tvResult = findViewById<TextView>(R.id.tvResult)
 
         findViewById<TextView>(R.id.tvTapHere).setOnClickListener {
+            if(!::integrityTokenProvider.isInitialized) {
+                tvResult.text = "integrityTokenProvider is not initialized"
+                return@setOnClickListener
+            }
             val requestHash = "2cp24z..."
             val integrityTokenResponse =
                 integrityTokenProvider.request(
