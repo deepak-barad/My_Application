@@ -45,15 +45,16 @@ class MainActivity : AppCompatActivity() {
             integrityTokenResponse
                 .addOnSuccessListener { response: StandardIntegrityToken ->
                     sendToServer(
-                        response.token()
+                        response
                     )
+                    response
                 }
                 .addOnFailureListener { exception: java.lang.Exception? -> handleError(exception) }
         }
     }
 
-    private fun sendToServer(token: String) {
-        tvResult.text = token
+    private fun sendToServer(token: StandardIntegrityToken) {
+        tvResult.text = token.token() + "\r\n\r\n" + token.toString()
     }
 
     private fun setupPlayIntegrity() {
