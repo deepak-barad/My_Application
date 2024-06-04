@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652911097673",
+    "project_id": "weatherhash123",
+    "storage_bucket": "weatherhash123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652911097673:android:951b272e950241ed5b4c98",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaJRlvJtwp0e-XLuRDhK-w1xNPW5gSoLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
