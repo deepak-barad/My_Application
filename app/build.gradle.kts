@@ -50,4 +50,5 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation ("com.google.android.play:integrity:1.3.0")
+    implementation(group = "org.bitbucket.b_c", name = "jose4j", version = "0.7.12")
 }
